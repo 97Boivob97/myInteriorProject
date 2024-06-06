@@ -1,0 +1,203 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    width:100%;
+}
+.nav-div{
+    float:left;
+    background-color: tomato;
+    width:20%;
+    padding-top:80px;
+    padding-left:40px;
+    padding-bottom:80px;
+}
+.nav-div .nav-start{
+    color:whitesmoke;
+    font-size: 2rem;
+    padding-bottom:60px;
+}
+.nav-div .list .list-item{
+    display:flex;
+    padding-top:20px;
+}
+.nav-div .list .list-item a{
+    text-decoration: none;
+    color:whitesmoke;
+    font-size:2rem;
+}
+
+.common-line{
+    width:60px;
+    height:10px;
+    background-color: tomato;
+    border-radius: 10px;
+    margin-bottom:30px;
+}
+.body-div{
+    width:75%;
+    padding-top:80px;
+    padding-left:60px;
+    float:right;
+}
+.body-div h1{
+    font-size:4rem;
+}
+.body-div .showcase .showcase-heading{
+    width:80%;
+    color:tomato;
+    font-size:3rem;
+    padding-top:40px;
+}
+.body-div .showcase .image-div{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap:10px;
+}
+.body-div .showcase .image-div img{
+    width:100%;
+    height:550px;
+    max-width:550px;
+}
+.body-div .service .service-heading{
+    color:tomato;
+    font-size:3rem;
+    padding-top:40px;
+}
+.text-div{
+    font-size: 20px;
+}
+.body-div .designer .designer-heading{
+    color:tomato;
+    font-size:3rem;
+    padding-top:40px;
+}
+.body-div .designers-images .person{
+    height:350px;
+    width:100%;
+    max-width:350px;
+}
+.body-div .designers-images{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:10px;
+}
+.body-div .designers-images .designer-info{
+    color:grey;
+}
+.body-div .card-div{
+    background-color: gainsboro;
+}
+
+.body-div .designers-images .designer-info,.designer-name{
+    padding-left:5px;
+    padding-bottom: 5px;
+}
+.body-div .package-div .package-heading{
+    color:tomato;
+    font-size:3rem;
+    padding-top:40px;
+}
+.body-div .basic-div{
+    width:100%;
+    max-width:50%;
+    text-align: center;
+    line-height: 100px;
+    float:left;
+    padding-right: 20px;
+}
+.body-div .basic-div .basic{
+    background-color: grey;
+    font-size:50px;
+    color:white;
+}
+.body-div .basic-div .common-basic{
+    background-color: gainsboro;
+    font-size:20px;
+}
+.body-div .basic-div .basic-amount{
+    background-color: gainsboro;
+    font-size:50px;
+
+}
+.body-div .basic-div .basic-button{ 
+    background-color: gainsboro;
+}
+.body-div .basic-div .basic-button .btn1{
+    padding:15px;
+    text-align: center;
+    font-size: 30px;
+}
+.body-div .basic-div #count,#room{
+    color:grey;
+}
+.body-div .basic-div .room-text{
+    background-color: gainsboro;
+    color:grey;
+    font-size:20px;
+}
+
+.body-div .pro-div{
+    width:100%;
+    max-width:50%;
+    text-align: center;
+    line-height: 100px;
+    float:left;
+}
+.body-div .pro-div .pro{
+    background-color: tomato;
+    font-size:50px;
+    color:white;
+}
+.body-div .pro-div .common-pro{
+    background-color: gainsboro;
+    font-size:20px
+}
+.body-div .pro-div .pro-amount{
+    background-color: gainsboro;
+    font-size:50px;
+}
+.body-div .pro-div .pro-button{ 
+    background-color:gainsboro;
+}
+.body-div .pro-div .pro-button .btn2{ 
+    background-color: tomato;
+    color:white;
+    text-align: center;
+    font-size: 30px;
+    padding:15px;
+}
+#count-pro,#room-pro{
+    color:grey;
+}
+#basic-plus,#basic-minus,#pro-plus,#pro-minus:hover{
+    cursor:pointer;
+}
+.body-div .pro-div .pro-text{
+    background-color: gainsboro;
+    color:grey;
+    font-size:20px;
+    visibility:hidden;
+}
+.body-div .contact .contact-heading{
+    color:tomato;
+    font-size:3rem;
+    padding-top:40px;
+}
+.body-div .input-1,.input-2,.input-3{
+    padding-top:10px;
+    width:100%;
+    font-size:30px;
+
+}
+.body-div .message-div{
+    margin-top:10px;
+    background-color: tomato;
+    text-align: center;
+    color:white;
+    font-size: 40px;
+    font-weight: lighter;
+}
+
